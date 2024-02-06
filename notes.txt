@@ -1,0 +1,10 @@
+@ for start server with sql :-
+    a. start XAMPP
+    b. inside this start [ apache and sql ] ( if not start sql then close the current xampp app from all place and open cmd -> search "services.msc" -> select mysql80 -> then stop that -> after that start xampp app again )
+    c. run python file of flask where code for route and app are written (clean_blog.py)
+    d. output https is open in any browser 
+
+@ pass any static data in page stored in folder :-
+    {{ url_for('parent_folder',filename='subfolder/file.extension') }}   
+
+@ 
